@@ -26,6 +26,7 @@ type salesforce.Account {
     externalId = false
     trackFeedHistory = false
     sorted = false
+    inlineHelpText = "Description of the field goes here"
   }
   salesforce.Picklist SLA__c {
     apiName = "Account.SLA__c"

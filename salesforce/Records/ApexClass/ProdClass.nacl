@@ -1,0 +1,6 @@
+salesforce.ApexClass ProdClass {
+  apiVersion = 54
+  status = "Active"
+  fullName = "ProdClass"
+  content = file("salesforce/Records/ApexClass/ProdClass.cls")
+}
